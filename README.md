@@ -25,7 +25,8 @@ To run the projects it's required an IDE suitable to run the Jupyter Notebook.
 
 ## Contributing
 
-I implemented the code exploiting the problem-specific characteristics (e.g., semi-constant lightning, same shadow on the background fabric, ...), hence using image processing techniques specific wrt to it, at least for the custom segmentation, hence in order to readapt the custom segmentation algorithm many modifications might be required. On the other hand, the Watershed-based segmentation, followed a more generic approach, and it's easier to readapt to other problems.
+stb_image.h and stb_image_write.h are a freely available library I decided to import to load easily bitmap files. If a better alternative is available they could be replaced.
+Also the multi-threading level could be improved, to achieve even better performance.
 
 ```bash
 git clone https://github.com/jgurakuqi/parallel-rasterizer
