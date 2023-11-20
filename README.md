@@ -21,7 +21,7 @@ Also, the provided input images are required in a bitmap format (.bmp).
 
 ## Usage
 
-To run the projects it's required an IDE suitable to run the Jupyter Notebook.
+To run the projects it's required a suitable IDE or C++ shell compiler.
 
 ## Contributing
 
